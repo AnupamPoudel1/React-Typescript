@@ -1,10 +1,10 @@
-import Component from './learnings/01-returns';
+import Component from './learnings/02-props';
 
 function App() {
 
   return (
     <>
-      <Component />
+      <Component name='Anupam' id={1} />
     </>
   )
 }
