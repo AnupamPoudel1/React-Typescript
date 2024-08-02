@@ -1,4 +1,4 @@
-
+// The return type of the element is important
 const index = (): JSX.Element | string | null => {
 
     return (
