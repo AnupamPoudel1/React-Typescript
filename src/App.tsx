@@ -1,9 +1,10 @@
+import Component from './learnings/01-returns';
 
 function App() {
 
   return (
     <>
-      Typescript Tutorial For React
+      <Component />
     </>
   )
 }
