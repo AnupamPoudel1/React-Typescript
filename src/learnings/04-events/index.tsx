@@ -21,8 +21,9 @@ const index = () => {
         const data = Object.fromEntries(formData);
         console.log(data);
         const username = formData.get('text') as string // as string because text returns null or string but null is not accepted by the Person type as it only accepts string
-        // const person: Person = { name: username }
-        const person: Person = { name: data.username as string }
+        const person: Person = { name: username }
+        const splitPerson: Person = { name: data.username as string }
+        console.log(person, splitPerson);
     }
 
     return (
