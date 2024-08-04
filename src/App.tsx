@@ -3,11 +3,16 @@ import SecondComponent from './learnings/02-props';
 import ThirdComponent from './learnings/03-state';
 import FourthComponent from './learnings/04-events';
 import FifthComponent from './learnings/05-challenge';
+import FifthCorrect from './learnings/05-correctChallange';
 
 function App() {
 
   return (
     <>
+      {/* Correct Way to complete the challenge */}
+      <FifthCorrect type='basic' username='anupam' />
+      <FifthCorrect type='advance' username='rose' email='ghimirerose@gmail.com' />
+
       {/* Challenge in React Typescript */}
       {/* In this challenge we need to keep two components basic and advance */}
       {/* Basic components contain username only and advanced component contain username and email */}
