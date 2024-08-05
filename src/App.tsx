@@ -5,14 +5,19 @@ import FourthComponent from './learnings/04-events';
 import FifthComponent from './learnings/05-challenge';
 import FifthCorrect from './learnings/05-correctChallange';
 import SixthComponent from './learnings/06-context';
+import SeventhComponent from './learnings/07-reducers';
 
 function App() {
+
 
   return (
     <>
       <div className='flex flex-col justify-center items-center bg-black text-white p-10'>
         <h1 className="font-extrabold text-3xl">React Typescript</h1>
       </div>
+
+      {/* Recuders in React Typescript */}
+      <SeventhComponent />
 
       {/* Context API using react typescript */}
       <SixthComponent />
