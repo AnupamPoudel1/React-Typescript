@@ -4,11 +4,15 @@ import ThirdComponent from './learnings/03-state';
 import FourthComponent from './learnings/04-events';
 import FifthComponent from './learnings/05-challenge';
 import FifthCorrect from './learnings/05-correctChallange';
+import SixthComponent from './learnings/06-context';
 
 function App() {
 
   return (
     <>
+      {/* Context API using react typescript */}
+      <SixthComponent />
+
       {/* Correct Way to complete the challenge */}
       <FifthCorrect type='basic' username='anupam' />
       <FifthCorrect type='advance' username='rose' email='ghimirerose@gmail.com' />
