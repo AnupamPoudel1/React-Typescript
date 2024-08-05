@@ -12,14 +12,10 @@ const index = (props: ChallengeType) => {
     const className = `${alertType} p-3 font-bold text-white rounded-md`;
 
     return (
-        <div className='flex flex-col justify-center items-center bg-gray-200 p-10'>
-            <h1 className='font-bold text-2xl'>React Typescript</h1>
-            <p className='font-bold text-xl'>Challenge</p>
-            <div className='flex flex-col justify-center items-center p-2'>
-                <div className={className}>
-                    User: {username}
-                    {type === 'advance' ? <p>Email: {email}</p> : null}
-                </div>
+        <div className='flex flex-col justify-center items-center p-2'>
+            <div className={className}>
+                User: {username}
+                {type === 'advance' ? <p>Email: {email}</p> : null}
             </div>
         </div>
     )

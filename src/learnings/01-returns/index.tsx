@@ -3,7 +3,6 @@ const index = (): JSX.Element | string | null => {
 
     return (
         <div className='flex flex-col justify-center items-center bg-gray-200 p-10'>
-            <h1 className="font-bold text-2xl">React Typescript</h1>
             <p className="font-bold text-xl">Return Types</p>
         </div>
     )

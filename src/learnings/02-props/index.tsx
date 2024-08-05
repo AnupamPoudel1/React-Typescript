@@ -19,14 +19,10 @@ const index = (props: ComponentProps): JSX.Element => {
     // We can also do ({name, id}: ComponentProps)
     // Either to destructure the props or not is entirely our choice
     return (
-        <div className='flex flex-col justify-center items-center bg-gray-100 p-10'>
-            <h1 className="font-bold text-2xl">React Typescript</h1>
-            <p className="font-bold text-xl">Props</p>
-            <div className="flex flex-col justify-center items-center p-5">
-                <p>Id: {props.id}</p>
-                <p>Name: {props.name}</p>
-                {props.children}
-            </div>
+        <div className="flex flex-col justify-center items-center p-5">
+            <p>Id: {props.id}</p>
+            <p>Name: {props.name}</p>
+            {props.children}
         </div>
     )
 }

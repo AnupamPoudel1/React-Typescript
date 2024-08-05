@@ -28,7 +28,6 @@ const index = () => {
 
     return (
         <div className='flex flex-col justify-center items-center bg-gray-100 p-10'>
-            <h1 className='font-bold text-2xl'>React Typescript</h1>
             <p className='font-bold text-xl'>Events</p>
             <div className='flex flex-col justify-center items-center'>
                 <div className="flex flex-col justify-center items-center p-5">
@@ -49,7 +48,7 @@ const index = () => {
                         />
                         <button
                             type="submit"
-                            className="px-5 py-2 bg-black text-white"
+                            className="px-5 py-2 bg-black text-white m-2 rounded-md"
                         >
                             Submit
                         </button>
