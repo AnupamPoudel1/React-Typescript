@@ -7,6 +7,7 @@ import FifthCorrect from './learnings/05-correctChallange';
 import SixthComponent from './learnings/06-context';
 import SeventhComponent from './learnings/07-reducers';
 import EighthComponent from './learnings/08-fetch';
+import NinthComponent from './learnings/09-reduxtoolkit';
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
       <div className='flex flex-col justify-center items-center bg-black text-white p-10'>
         <h1 className="font-extrabold text-3xl">React Typescript</h1>
       </div>
+
+      {/* Redux Toolkit Examples in React Typescript */}
+      <NinthComponent />
 
       {/* Fetching API in React Typescript */}
       <EighthComponent />
