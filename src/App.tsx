@@ -8,15 +8,19 @@ import SixthComponent from './learnings/06-context';
 import SeventhComponent from './learnings/07-reducers';
 import EighthComponent from './learnings/08-fetch';
 import NinthComponent from './learnings/09-reduxtoolkit';
+import FinalTask from './learnings/10-task';
 
 function App() {
 
 
   return (
-    <>
+    <div className='overflow-hidden'>
       <div className='flex flex-col justify-center items-center bg-black text-white p-10'>
         <h1 className="font-extrabold text-3xl">React Typescript</h1>
       </div>
+
+      {/* Final Task in Learning React Typescript */}
+      <FinalTask />
 
       {/* Redux Toolkit Examples in React Typescript */}
       <NinthComponent />
@@ -66,7 +70,7 @@ function App() {
       </div>
 
       <FirstComponent />
-    </>
+    </div>
   )
 }
 
