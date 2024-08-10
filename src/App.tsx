@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div className='overflow-hidden'>
-      <div className='flex flex-col justify-center items-center bg-black text-white p-10'>
-        <h1 className="font-extrabold text-3xl">React Typescript</h1>
+      <div className='flex flex-col justify-center items-center bg-gray-600 text-white font-bold font-serif p-10 shadow-md'>
+        <h1 className="font-extrabold text-3xl shadow-md shadow-gray-400 px-4 py-2 rounded-md text-blue-500">React Typescript</h1>
       </div>
 
       {/* Final Task in Learning React Typescript */}
